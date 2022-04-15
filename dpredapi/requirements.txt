@@ -3,3 +3,5 @@ Flask
 Flask-RESTful
 gunicorn
 pickle5
+numpy
+pandas
