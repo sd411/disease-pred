@@ -1,4 +1,4 @@
 requests
 Flask
 Flask-RESTful
-pickle
+pickle5
