@@ -1,10 +1,12 @@
 from flask import Flask, jsonify, request
 import numpy as np
 import pandas as pd
+from flask_cors important CORS
 import pickle
 
 # creating a Flask app
 app = Flask(__name__)
+CORS(app) 
 
 # on the terminal type: curl http://127.0.0.1:5000/
 # returns hello world when we use GET.
